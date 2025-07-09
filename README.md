@@ -3,4 +3,5 @@
 ## Tech Stack:
 - React
 - TypeScript
+
 .. And I use next.js to bring my stuff to life!
