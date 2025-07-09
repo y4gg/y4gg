@@ -1,6 +1,6 @@
 ## Hello World, I'm y4.gg
 
-## Tech Stack:
+### Tech Stack:
 - React
 - TypeScript
 
