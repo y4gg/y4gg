@@ -28,6 +28,7 @@ export default function Home() {
             Github
           </Link>
         </div>
+        <h1 className="text-4xl font-extrabold">/home/y4gg ❯</h1>
       </div>
     </div>
   );
