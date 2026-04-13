@@ -49,3 +49,18 @@ body {
 .animated-link:focus-visible::after {
   transform: scaleX(1);
 }
+
+.terminal-text {
+  border-right: 18px solid white; /* The "block" cursor */
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}

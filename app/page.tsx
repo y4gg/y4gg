@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="h-screen w-screen flex flex-col items-center justify-center">
       <div className="flex flex-col items-start gap-8">
-        <h1 className="text-4xl font-extrabold">/home/y4gg ❯ ls -a</h1>
+        <h1 className="text-4xl font-extrabold">~ ❯ ls -l</h1>
         <div className="flex w-full flex-col">
           <Link href="https://subtrack.y4.gg" className="animated-link text-xl">
             Subtrack
@@ -28,7 +28,9 @@ export default function Home() {
             Github
           </Link>
         </div>
-        <h1 className="text-4xl font-extrabold">/home/y4gg ❯</h1>
+        <h1 className="text-4xl font-extrabold terminal-text whitespace-pre">
+          ~ ❯{" "}
+        </h1>
       </div>
     </div>
   );
