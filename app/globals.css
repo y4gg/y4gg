@@ -24,3 +24,28 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.animated-link {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.animated-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.1em;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 180ms ease;
+}
+
+.animated-link:hover::after,
+.animated-link:focus-visible::after {
+  transform: scaleX(1);
+}
