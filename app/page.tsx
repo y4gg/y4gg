@@ -9,9 +9,6 @@ export default function Home() {
           <Link href="https://subtrack.y4.gg" className="animated-link text-xl">
             Subtrack
           </Link>
-          <Link href="https://ai.y4.gg" className="animated-link text-xl">
-            AI API
-          </Link>
           <Link href="https://dcc.y4.gg" className="animated-link text-xl">
             Discord Cleaner
           </Link>
