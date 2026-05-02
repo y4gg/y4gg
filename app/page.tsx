@@ -6,9 +6,6 @@ export default function Home() {
       <div className="flex flex-col items-start gap-8">
         <h1 className="text-4xl font-extrabold">~ ❯ ls -l</h1>
         <div className="flex w-full flex-col">
-          <Link href="https://subtrack.y4.gg" className="animated-link text-xl">
-            Subtrack
-          </Link>
           <Link href="https://dcc.y4.gg" className="animated-link text-xl">
             Discord Cleaner
           </Link>
